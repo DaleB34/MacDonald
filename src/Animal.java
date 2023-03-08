@@ -13,6 +13,10 @@ public class Animal
         this.age = age;
     }
 
+    public String getType()
+    {
+        return type;
+    }
     public String sing()
     {
         return sound;
